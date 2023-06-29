@@ -6,11 +6,17 @@
    html{
     font-size: 0.9rem;
    }
+   .button-2-aboutus{
+    margin-left: 16rem;
+}
 }
 
 @media (max-width:768px){
     html{
         font-size: 0.8rem;
+    }
+    .button-2-aboutus{
+        margin-left: 18rem;
     }
 }
 
@@ -18,6 +24,9 @@
 
     html{
         font-size: 0.7rem;
+    }
+    .button-2-aboutus{
+        margin-left: 7rem;
     }
       
 }

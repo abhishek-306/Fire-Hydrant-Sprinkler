@@ -190,9 +190,8 @@
   position: relative;
 }
 
-.sec-3-carousel-content::before {
+.sec-3-carousel-content-1::before {
   content: "Fire Sprinkler";
-  /* z-index: 999!important; */
   color: white;
   position: absolute;
   top: 40%;
@@ -201,7 +200,44 @@
   font-size: 2rem; 
   font-weight: 600;
 }
-.sec-3-carousel-content:hover::before {
+
+.sec-3-carousel-content-2::before {
+  content: "Lorem";
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 50%; 
+  transform: translate(-50%, 0%);
+  font-size: 2rem; 
+  font-weight: 600;
+}
+
+.sec-3-carousel-content-3::before {
+  content: "Ipsum";
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 50%; 
+  transform: translate(-50%, 0%);
+  font-size: 2rem; 
+  font-weight: 600;
+}
+
+.sec-3-carousel-content-4::before {
+  content: "lorem";
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 50%; 
+  transform: translate(-50%, 0%);
+  font-size: 2rem; 
+  font-weight: 600;
+}
+
+
+.sec-3-carousel-content-1:hover::before , .sec-3-carousel-content-2:hover::before,
+.sec-3-carousel-content-3:hover::before, .sec-3-carousel-content-4:hover::before
+{
   content: "";
 }
 
@@ -534,6 +570,244 @@ footer .container .row img{
     width: 45%!important;
   }
 
+  /*  About us Section */
+
+  .Aboutus-background{
+    position: relative;
+    background-image: url('../Images/About-us/section-1/Background-1.jpg');
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+  
+    .section-2 .background-text{
+      position: absolute;
+      top: 30%;
+      left: 10%;
+      font-weight: 600;
+    }
+    .section-2 .background-text p span{
+      font-size: 1.5rem;
+    }
+    .section-2 .background-text a{
+      text-decoration: none;
+      color: grey;
+      font-size: 1.5rem;
+    }
+
+    .button-2-aboutus{
+      background-color: rgb(245, 89, 11);
+      padding: 1rem 2rem;
+      color: white;
+      border: none;
+      width: 15rem;
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+
+    .button-2-aboutus:hover{
+      color:rgb(245, 89, 11);
+      border: 1px solid rgb(245, 89, 11,0.4);
+      background-color:white;
+      transition: .5s;
+    }
+  
+    .contact-icons{
+      background-color: rgb(245, 89, 11);
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 100%;
+      /* padding: 20px 10px; */
+      color: white;
+      font-size: 2.5rem;
+    }
+  
+    .contact-fonts{
+      font-size: 1.25rem;
+      font-weight: 500;
+      color: rgb(168, 166, 166);
+    }
+  
+    .no-line{
+      text-decoration: none;
+    }
+  
+    .footer-logo {
+      width: 45%!important;
+    }
+
+/*  Product Page section */
+
+.Product-background{
+    position: relative;
+    background-image: url('../Images/Products/section-1/background.jpg');
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sec-4-background{
+  background-color: rgb(187, 69, 10);
+}
 
 
+/*  Blog Page Section  */
 
+.Blog-background{
+    position: relative;
+    background-image: url('../Images/Blog/section-1/background.avif');
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Blog-1-background{
+  position: relative;
+  background-image: url('../Images/Blog/section-1/background-1.jpg');
+  height: 70vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.date{
+  font-size: 0.8rem;
+}
+
+.blog-para{
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgb(255,91,54);
+  transform: translate(0%,-10%);
+}
+
+.blog-para:hover{
+  color: black;
+}
+.heading{
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.heading:hover{
+  color: rgb(255,91,54);
+  transition: .6s;
+}
+
+.blog-image{
+  width: 50rem;
+  height: 60vh;
+  padding: 0rem 1.8rem;
+}
+
+.blog-content{
+  margin: 0px!important;
+  padding: 2rem 4rem;
+  transform: translate(-3% ,-8%);
+}
+
+.left-blog{
+  background-color: rgba(238, 234, 234, 0.701);
+  border-radius: 0.3rem;
+  padding: 3rem;
+}
+
+.left-blog-image{
+  width: 4rem;
+  border-radius: 0.3rem;
+}
+
+.blog-hover:hover{
+  color: rgb(255,91,54);
+}
+
+
+.blog-button{
+  padding: 0rem 1rem;
+  color: black;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+  border: 1px solid rgba(13, 12, 12);
+}
+
+.blog-button:hover{
+  color: white;
+  background-color: rgb(255,91,54);
+  transition: .5s;
+}
+
+
+/*  Service Page section  */
+
+
+.service-heading{
+  color: rgb(223, 82, 30);
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+.service-para{
+  font-size: 1rem;
+  font-weight: 500;
+}
+.Service-background{
+  position: relative;
+  background-image: url('../Images/Our-services/section-1/background.jpg');
+  height: 70vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.service-1{
+  background-image: url(../Images/Our-services/section-2/service-1.jpg);
+  position: relative;
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.service-button{
+  padding: 0.7rem 0rem;
+  background-color: rgb(241, 102, 21);
+  color:white;
+  width: 9rem;
+  border: none;
+  font-weight: 500;
+  border-radius: 0.3rem;
+}
+.service-button:hover{
+ color: rgb(241, 102, 21);
+ background-color: transparent;
+ border: 1px solid rgb(241, 102, 21,0.9);
+ transition: 0.6s;
+}
+ .service-2{
+  background-image: url(../Images/Our-services/section-2/service-2.jpg);
+  position: relative;
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.service-3{
+  background-image: url(../Images/Our-services/section-2/service-3.jpg);
+  position: relative;
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.service-4{
+  background-image: url(../Images/Our-services/section-2/service-4.jpg);
+  position: relative;
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.services-back{
+  background-color: rgba(252, 250, 249, 0.9);
+}

@@ -84,3 +84,77 @@ $('.fourth-carousel').owlCarousel({
         }
     }
 })
+
+
+// About Us Page carousel 
+
+$('.fifth-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    autoplay:true,
+    dots:false,
+    autoplayTimeout:4000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        900: {
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+
+
+$('.sixth-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    autoplay:true,
+    dots:false,
+    autoplayTimeout:4000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+
+
+
+//  Our Services Carousel section
+
+$('.seven-carousel').owlCarousel({
+
+    loop:true,
+    margin:10,
+    nav:false,
+    autoplay:true,
+    dots:false,
+    autoplayTimeout:4000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+
+
